@@ -1,0 +1,315 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Sass Landing Page,
+    Template URI: site.com
+    Description: Sass Landing Page,
+    Author: Uideck
+    Author URI: https://uideck.com/
+    Support: https://uideck.com/support/
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+    CSS INDEX
+    ===================
+
+    01.COMMON 
+    02.HEADER
+    03.BRAND
+    04.SERVICES
+    05.ABOUT
+    06.VIDEO COUNTER
+    07.TEAM
+    08.TESTIMONIAL
+    09.BLOG
+    10.SUBSCRIBE
+    11.FOOTER
+
+-----------------------------------------------------------------------------------*/
+/*===========================
+     01.COMMON css 
+===========================*/
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700|Lato:300,400,700&display=swap");
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  color: #6A6972;
+  overflow-x: hidden; }
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+img {
+  max-width: 100%; }
+
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+  text-decoration: none;
+  outline: none; }
+
+a:focus,
+a:hover {
+  text-decoration: none; }
+
+i,
+span,
+a {
+  display: inline-block; }
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #2E2E2E;
+  margin: 0px; }
+
+h1 {
+  font-size: 48px; }
+
+h2 {
+  font-size: 36px; }
+
+h3 {
+  font-size: 28px; }
+
+h4 {
+  font-size: 22px; }
+
+h5 {
+  font-size: 18px; }
+
+h6 {
+  font-size: 16px; }
+
+ul, ol {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none; }
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #6A6972;
+  margin: 0px; }
+
+.bg_cover {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%; }
+
+/*===========================
+      02.HEADER css 
+===========================*/
+/*===== NAVBAR =====*/
+.navbar-area {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s; }
+
+.navbar {
+  padding: 25px 0;
+  border-radius: 5px;
+  position: relative;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s; }
+
+.navbar-brand {
+  padding: 0; 
+  color: #fff; }
+
+/*===== HEADER HERO =====*/
+.header-hero {
+  position: relative;
+  z-index: 5;
+  background-position: bottom center; }
+
+.header-hero-content {
+  margin-top: 100px;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1); }
+  @media (max-width: 767px) {
+    .header-hero-content {
+      margin-top: 75px; } }
+  .header-hero-content .header-sub-title {
+    font-size: 38px;
+    font-weight: 300;
+    color: #fff; }
+    @media (max-width: 767px) {
+      .header-hero-content .header-sub-title {
+        font-size: 24px; } }
+    @media only screen and (min-width: 576px) and (max-width: 767px) {
+      .header-hero-content .header-sub-title {
+        font-size: 30px; } }
+  .header-hero-content .header-title {
+    font-size: 38px;
+    font-weight: 700;
+    color: #fff; }
+    @media (max-width: 767px) {
+      .header-hero-content .header-title {
+        font-size: 24px; } }
+    @media only screen and (min-width: 576px) and (max-width: 767px) {
+      .header-hero-content .header-title {
+        font-size: 30px; } }
+  .header-hero-content .text {
+    color: #fff;
+    margin-top: 30px; }
+  .header-hero-content .main-btn {
+    margin-top: 40px; }
+
+.header-hero-image {
+  padding-top: 45px; }
+  .header-hero-image img {
+    max-width: 650px; }
+    @media (max-width: 767px) {
+      .header-hero-image img {
+        max-width: 100%; } }
+  @media (max-width: 767px) {
+    .header-hero-image {
+      padding-top: 30px; } }
+
+/*===========================
+       11.FOOTER  css 
+===========================*/
+.footer-area {
+  background-position: top center;
+  position: relative;
+  z-index: 5; }
+
+.footer-widget {
+  padding-top: 50px; }
+
+.footer-about .logo img {
+  width: 160px; }
+
+.footer-about .text {
+  color: #fff;
+  line-height: 30px;
+  margin-top: 30px; }
+
+.footer-about .social {
+  margin-top: 40px; }
+  .footer-about .social li {
+    display: inline-block;
+    margin-right: 30px; }
+    .footer-about .social li a {
+      font-size: 22px;
+      color: #fff;
+      -webkit-transition: all 0.3s ease-out 0s;
+      -moz-transition: all 0.3s ease-out 0s;
+      -ms-transition: all 0.3s ease-out 0s;
+      -o-transition: all 0.3s ease-out 0s;
+      transition: all 0.3s ease-out 0s; }
+      .footer-about .social li a:hover {
+        color: #FE8464; }
+
+.footer-title .title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff; }
+
+.link-wrapper {
+  padding: 0 35px; }
+  @media (max-width: 767px) {
+    .link-wrapper {
+      padding: 0;
+      padding-right: 50px; } }
+  .link-wrapper .link {
+    padding-top: 20px; }
+    .link-wrapper .link li {
+      margin-top: 20px; }
+      .link-wrapper .link li a {
+        font-size: 16px;
+        color: #fff;
+        -webkit-transition: all 0.3s ease-out 0s;
+        -moz-transition: all 0.3s ease-out 0s;
+        -ms-transition: all 0.3s ease-out 0s;
+        -o-transition: all 0.3s ease-out 0s;
+        transition: all 0.3s ease-out 0s; }
+        .link-wrapper .link li a:hover {
+          color: #FE8464; }
+
+.footer-contact .contact {
+  padding-top: 20px; }
+  .footer-contact .contact li {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #464646; }
+
+.footer-copyright {
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  padding-top: 15px;
+  padding-bottom: 30px; }
+
+.copyright-content {
+  padding-top: 15px;
+  text-align: center; }
+  .copyright-content p {
+    color: #464646; }
+  .copyright-content a {
+    font-size: 16px;
+    color: #464646;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s; }
+    .copyright-content a:hover {
+      color: #FE8464; }
+
+/*===== BACK TO TOP =====*/
+.back-to-top {
+  font-size: 20px;
+  color: #fff;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 5px;
+  background: -webkit-linear-gradient(left, #361cc1 0%, #2e82ef 100%);
+  background: -o-linear-gradient(left, #361cc1 0%, #2e82ef 100%);
+  background: linear-gradient(to right, #361cc1 0%, #2e82ef 100%);
+  text-align: center;
+  z-index: 99;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+  display: none; }
+  .back-to-top:hover {
+    color: #fff; }
