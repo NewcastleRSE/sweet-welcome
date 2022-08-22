@@ -149,6 +149,9 @@ p {
   padding: 0; 
   color: #fff; }
 
+.navbar-brand img {
+  height: 30px; }
+
 /*===== HEADER HERO =====*/
 .header-hero {
   position: relative;
