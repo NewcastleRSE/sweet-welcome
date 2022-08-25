@@ -296,6 +296,10 @@ p {
     .copyright-content a:hover {
       color: #FE8464; }
 
+.footer-copyright .logos img {
+  height: 80px
+}
+
 /*===== BACK TO TOP =====*/
 .back-to-top {
   font-size: 20px;
